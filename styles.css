@@ -1,0 +1,196 @@
+.left_fix {
+  float: left;
+}
+
+.right_fix {
+  float: right;
+}
+
+.clear_fix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+body {
+  background-color: rgb(207, 206, 206)
+}
+
+.container {
+  width: 960px;
+  height: 3000px;
+  margin: 0 auto;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* 或者 display: grid; */
+
+}
+
+.subTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header {
+  width: 100%;
+
+  margin-top: 10px;
+}
+
+.name {
+  font-size: 45px;
+  margin: 10px;
+}
+
+.header .text {
+  margin: 10px;
+  margin-left: 40px;
+  color: red;
+}
+
+
+.topBar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.topBar i span {
+  text-transform: none;
+  font-size: 12px;
+  color: rgb(38, 37, 37);
+
+}
+
+.highlights {
+  margin: 10px 50px;
+}
+
+.highlights hr {
+  width: 490px;
+  display: inline-block;
+  height: 2px;
+  background-color: rgb(32, 117, 150);
+}
+
+.highlights ul {
+  margin-top: 10px;
+  list-style-type: disc;
+  padding-right: 10px;
+  padding-left: 25px;
+}
+
+.highlights ul li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  line-height: 1.5;
+}
+
+.highlights ul li:last-child {
+  font-weight: bold;
+}
+
+.education {
+  margin: 10px 50px;
+}
+
+.education hr {
+  width: 730px;
+  display: inline-block;
+  height: 2px;
+  background-color: rgb(32, 117, 150);
+}
+
+.education .top {
+  margin: 10px;
+}
+
+.education .top .left {
+  width: 500px;
+  line-height: 25px;
+}
+
+.education .top .right {
+  line-height: 50px;
+}
+
+.education .bottom {
+  display: inline-block;
+  margin: 10px 10px;
+  line-height: 25px;
+}
+
+.skill .list {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill {
+  margin: 10px 50px;
+}
+
+.skill hr {
+  width: 730px;
+  display: inline-block;
+  height: 2px;
+  background-color: rgb(32, 117, 150);
+}
+
+.skill .list span {
+  font-size: 20px;
+}
+
+.skill ul {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  list-style-type: disc;
+}
+
+.skill ul li {
+  line-height: 20px;
+}
+
+.skill ul ul {
+  list-style-type: circle;
+}
+
+.projectExperience {
+  margin: 10px 50px;
+
+}
+
+.projectExperience hr {
+  width: 620px;
+  display: inline-block;
+  height: 2px;
+  background-color: rgb(32, 117, 150);
+}
+
+.projectExperience .projects {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.projects ul {
+  display: inline-block;
+  font-size: 15px;
+  margin: 15px;
+  margin-left: 30px;
+  list-style-type: disc;
+  line-height: 20px;
+}
+
+.projects ul li {
+  margin: 15px;
+}
